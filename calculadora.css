@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  justify-content: center;  /* Centraliza na horizontal */
+  align-items: center;      /* Centraliza na vertical */
+  height: 100vh;
+  background-color: hsl(0, 8%, 90%);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Caixa da calculadora */
+.calculadora {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 5px solid #ffffff; /* 🔹 Borda grossa */
+  border-radius: 20px;       /* 🔹 Arredondada */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* 🔹 Sombra */
+  color: white;
+  text-align: center;
+}
+
+/* Campo de digitação */
+input {
+  width: 90%;
+  height: 50px;
+  margin-bottom: 15px;
+  font-size: 22px;
+  text-align: right;
+  border-radius: 5px;
+  
+  padding: 5px;
+}
+
+/* Área dos botões */
+.botoes {
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  gap: 10px;
+  justify-content: center;
+}
+
+/* Estilo dos botões */
+button {
+  background-color: #8a9dd5;
+  color: rgb(27, 27, 27);
+  font-size: 24px;
+  padding: 20px;
+  border: 3px solid #f5f5f5; /* 🔹 Borda visível */
+  border-radius: 10px;       /* 🔹 Cantos arredondados */
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #8a9dd5;
+  border-color: #0f0f0f;
+}
+
+.calcular{
+    background-color: red;
+}
