@@ -1,7 +1,7 @@
 # 💻 Calculadora Simples
 Projeto desenvolvido com **HTML**, **CSS** e **JavaScript** para praticar operações básicas.
 
-![Prévia da calculadora](./preview.png)
+![previa da calculadora](./img/calculadora.png)
 
 
 
